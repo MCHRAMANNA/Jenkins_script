@@ -3,7 +3,7 @@ pipeline {
 stages {
 stage(SCM) {
 steps {
-git 'https://github.com/MCHRAMANNA/Jenkins_script.git'
+git branch: 'main', url: 'https://github.com/MCHRAMANNA/Jenkins_script.git'
    }
   }
  }
